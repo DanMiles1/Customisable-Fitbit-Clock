@@ -1,0 +1,13 @@
+<svg>
+  <rect id="background" />
+  <text id="myClock" />
+  <text id="myMonth" />
+  <text id="myDay" />
+  <text id="myWeekday" />
+  <text id="myElevation" />
+  <text id="mySteps" />
+  <text id="myDistance" />
+  <text id="myCalories" />
+  <text id="myAZM" />
+  <text id="myHeartRate" class="sensor-data">{ ... }</text>
+</svg>
