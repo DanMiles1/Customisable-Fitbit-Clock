@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "Customisable Clockface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#e91e63",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_exercise",
+      "access_sleep",
+      "access_user_profile",
+      "run_background"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Customisable Clockface"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
